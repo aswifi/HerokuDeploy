@@ -1,6 +1,17 @@
 {
   "name": "OneListCaddy-Heroku",
+  "type": "project",
   "description": "OneList",
+  "logo": "",
+  "website": "",
   "repository": "https://github.com/pengchujin/OneListCaddy",
   "keywords": ["OneList","Heroku","Caddy"]
+  "stack": "heroku-20",
+  "buildpacks": [
+		{
+			"url": "heroku/go"
+		}
+	],
+  "success_url": "/",
+  "addons": []
 }
