@@ -5,7 +5,7 @@
   "logo": "",
   "website": "",
   "repository": "https://github.com/pengchujin/OneListCaddy",
-  "keywords": ["OneList","Heroku","Caddy"]
+  "keywords": ["OneList","Heroku","Caddy"],
   "stack": "heroku-20",
   "buildpacks": [
 		{
