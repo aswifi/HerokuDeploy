@@ -1,0 +1,13 @@
+
+{
+  "name": "Zfile-Heroku",
+  "type": "project",
+  "description": "Zfile",
+  "logo": "",
+  "website": "",
+  "repository": "https://github.com/aswifi/HerokuDeploy",
+  "keywords": ["Zfile","Heroku"],
+  "stack": "container",
+  "success_url": "/",
+  "addons": []
+}
