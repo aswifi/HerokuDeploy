@@ -1,4 +1,4 @@
-FROM alpine-golang
+FROM node:lts-buster AS fe-builder
 MAINTAINER 
 
 ENV 
