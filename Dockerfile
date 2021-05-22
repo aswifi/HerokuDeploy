@@ -1,14 +1,13 @@
-FROM zhaojun1998/alpine-java
-MAINTAINER Stille <stille@ioiox.com>
+FROM golang:1.16.4-alpine
+MAINTAINER 
 
-ENV VERSION=3.0
+ENV 
 
 WORKDIR /app
 
-RUN wget https://github.com/zhaojun1998/zfile/releases/download/${VERSION}/zfile-${VERSION}.war \
-    && mkdir zfile && unzip zfile-${VERSION}.war -d zfile && rm -rf zfile-${VERSION}.war \
-    && chmod +x ~/zfile/bin/*.sh
+RUN git clone https://github.com/aswifi/Temp.git \
+    && chmod +x alist
 
 EXPOSE 80
 
-CMD sh ./zfile/bin/start.sh && tail -f /dev/null
+CMD nohup ./alist > log.log 2>&1 &
