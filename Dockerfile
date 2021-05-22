@@ -3,7 +3,7 @@ MAINTAINER Stille <stille@ioiox.com>
 
 ENV VERSION=3.0
 
-WORKDIR /root
+#WORKDIR /root
 
 RUN wget https://github.com/zhaojun1998/zfile/releases/download/${VERSION}/zfile-${VERSION}.war \
     && mkdir zfile && unzip zfile-${VERSION}.war -d zfile && rm -rf zfile-${VERSION}.war \
