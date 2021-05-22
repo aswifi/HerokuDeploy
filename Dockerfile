@@ -1,4 +1,4 @@
-FROM alpine:go
+FROM alpine
 MAINTAINER 
 
 ENV 
